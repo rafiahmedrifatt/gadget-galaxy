@@ -1,9 +1,14 @@
+import { Outlet } from "react-router";
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
   );
 }
