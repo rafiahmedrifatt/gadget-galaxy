@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
         Component: About,
       },
       {
-        path: "/favorites",
+        path: "/favorite",
         Component: Favorites,
       },
       {
